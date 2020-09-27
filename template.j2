@@ -1,0 +1,10 @@
+##========================================
+##  Fixed address hosts
+##========================================
+
+{% for host in hosts %}
+host {{ host.hostname }} {
+    hardware ethernet {{ host.mac }};
+    fixed-address {{ host.address }};
+}
+{% endfor %}

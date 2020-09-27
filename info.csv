@@ -1,0 +1,5 @@
+hostname          mac                address
+switch-1          B2:B5:99:2F:9E:C9  192.168.1.101
+switch-2          F0:AE:CA:3E:19:85  192.168.1.102
+switch-3          59:BC:12:7D:BC:97  192.168.1.103
+router-something  DC:DA:24:70:67:BD  192.168.1.104
