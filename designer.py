@@ -5,7 +5,7 @@ with open('./kea-dhcp4.conf') as g:
     template = Template(g.read(), undefined=StrictUndefined)
 
 with open('info.csv') as f:
-    data = csv.DictReader(f, delimiter=' ', skipinitialspace=True)
+    data = csv.DictReader(f, delimiter=',', skipinitialspace=True)
     data = list(data)
 
 with open('output.txt', 'w') as h:
